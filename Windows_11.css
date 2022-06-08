@@ -1,0 +1,67 @@
+*{
+        margin:0;
+        padding:0;
+}
+
+
+body{
+    background-image: url("/Props/bg.jpeg"); 
+    background-size: cover;
+
+    overflow: hidden;
+    height:100vh;
+    
+}
+.taskbar{
+     width:100%;    
+     position:absolute;
+     bottom:0;
+     display:flex;
+     justify-content: center;
+     background-color: white;
+     z-index: 110;
+
+
+}
+.right
+{
+    position:absolute;
+    right:0;
+    margin: 6px;
+    height: 80%;
+}
+.startmenu{
+
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 1s ease-in;
+}
+.startmenu img{
+    border-radius: 8px;
+    
+}
+.chromeimg
+{
+    position: absolute;
+    top:30px;
+
+}
+.chrome{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top:70px;
+}
+.edgeimg
+{
+    position: absolute;
+    bottom:100px;
+}
+.edge{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 600px; 
+}
